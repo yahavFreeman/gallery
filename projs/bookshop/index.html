@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body onload="onInit()">
+    <h1>Welcome to the book shop!</h1>
+    <span class="add-book" onclick="onAddBook()">add a book to my collection please</span><br>
+    <section class="add-book-input" hidden>
+    </section>
+
+    <table >
+<tbody class="da-books">
+
+</tbody>
+    </table>
+    <button onclick="onNextPage()">next page</button>
+    <div class="reading-material" hidden>
+    
+    </div>
+    <script src="js/service/storage.service.js"></script>
+    <script src="js/shop.util.js"></script>
+    <script src="js/service/shop.service.js"></script>
+    <script src="js/shop.controller.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+body{
+    background-color: bisque;
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    border: solid 1px black;
+    margin-top: 20px;
+}
+td{
+    border-collapse: collapse;
+    border: solid 1px black;
+
+}
+th{
+    border-collapse: collapse;
+    border: solid 1px black;
+}
+.read{
+    background-color: rgba(71, 71, 241, 0.747);
+}
+.update{
+    background-color: rgba(238, 238, 106, 0.918);
+}
+.delete{
+    background-color: rgb(182, 77, 77);
+}
+.add-book{
+    color: rgba(42, 106, 243, 0.863);
+}
+.add-book:hover{
+    cursor:pointer;
+}
+.close-Modal{
+    background-color: lime;
+    border-radius: 30%;
+}
+.reading-material{
+    margin-top: 30px;
+    background-color: mistyrose;
+}
+.sort:hover{
+    cursor:pointer;
+color: rgb(12, 12, 243);
+}

@@ -1,0 +1,158 @@
+body{
+    text-align: center;
+    background-color:rgb(139, 157, 175);
+}
+button{
+    border-radius: 10px;
+    background-color: rgb(140, 166, 245);
+}
+.Hard{
+    background-color: sandybrown;
+}
+.expert{
+    background-color: tomato;
+}
+.safer{
+    background-color: rgb(230, 199, 230);
+}
+.sevenBoom{
+    background-color:rgb(230, 199, 230);
+}
+.manualy{
+    background-color: rgb(230, 199, 230);
+}
+.keepScore{
+    margin-right: 20px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border:solid 2px black;
+    background-color: rgb(240, 215, 147);
+    
+}
+.timer{
+    margin-left: 20px;
+    padding: 3px;
+    border:solid 2px black;
+    background-color: rgb(240, 215, 147);
+
+}
+.first-row{
+    padding: 1%;
+}
+.smiley{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px,2px,0px,2px;
+}
+.life{
+    margin-top: 1%;
+}
+
+.hint{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(147, 218, 191);
+}
+.lives{
+    margin-right: 20px;
+    position: relative;
+
+}
+.score{
+    margin-top: 20px;
+    text-align: center;
+color: lavender;}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:0px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+
+.third-row{
+    margin-top: 30px;
+}
+
+/* table const */
+table{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px black;
+    table-layout: fixed;
+}
+
+td{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border: solid 2px black;
+    overflow: hidden;
+    color: transparent;
+    padding: 0px;
+}
+
+img {
+   height: 20px;
+   width: 20px;
+   padding: 0px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+ .armed>img{
+    height: 20px;
+   width: 20px;
+   padding: 0px;
+   margin-left: auto;
+   margin-right: auto;
+    display: none;
+ } 
+
+
+/* mines hiding */
+.cell{
+    background-color: lightblue;
+    color: lightblue;
+    text-align: center;
+    
+}
+.cell:hover{
+    cursor: pointer;
+    background-color: cornflowerblue;
+    color: transparent;
+}
+.mark0{
+    color: black;
+    background-color: white;
+}
+.mark:hover{
+    cursor: unset;
+    background-color: white;
+    color: black;
+}
+.mark1{
+    color: green;
+    background-color: white;
+}
+
+.mark2{
+    color: blue;
+    background-color: white;
+}
+.mark3{
+    color: rgb(228, 59, 59);
+    background-color: white;
+}
+.mark4{
+    color: rgb(243, 7, 192);
+    background-color:white;
+}
+
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="img/mines.png" type="image/x-icon">
+    <title>Minesweeper</title>
+</head>
+
+<body onload="initGame()">
+    <div class="first-row">
+        <span class="keepScore first">0</span>
+        <button class="smiley first" onclick="initGame()">😃</button>
+        <span class="timer first">0:00:0</span>
+    </div>
+    <div class="level">
+        <button class="Easy" onclick="initGame(4,4)">Easy</button>
+        <button class="Hard" onclick="initGame(8,8)">Hard</button>
+        <button class="expert" onclick="initGame(12,12)">Expert</button>
+        <div class="life">
+            <span class="lives"></span>
+            <button class="hint" onclick="hint()"></button>
+        </div>
+    </div>
+    <div class="board" ></div>
+<div class="grid-container">
+    <div class="grid-child safe">
+        <button class="safer" onclick="safeClick()">Safe Click!</button>
+        <br>
+            <span class="howSafe" ></span>
+    </div>
+    <div class="grid-child boom" ><button class="sevenBoom" onclick="sevenBoom()">7BOOM!</button>
+    </div>
+    <div class="grid-child manual">
+<button class="manualy" onclick="manual()">manual</button>
+    </div>
+</div>
+<div class="score">
+<div class="highestScore4"></div>    
+<div class="highestScore8"></div>    
+<div class="highestScore12"></div>    
+</div>
+
+
+    <script src="js/main.js"></script>
+    <script src="js/utils.js"></script>
+</body>
+
+</html>
